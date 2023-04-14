@@ -10,15 +10,16 @@ CLASSES_MAP = {
 }
 
 # Modèle de classification
-# model = tf.keras.models.load_model(BASE_DIR / 'static/final_saved_models/model')
+model = tf.keras.models.load_model(BASE_DIR / 'static/final_saved_models/model')
 
-def infer(text: str)->tuple[str, float]:
+
+def infer(text: str) -> tuple[str, float]:
     """
     Inférence sur le modèle de machine learning
     :param text: Texte à classer
     :return: la classe et la probabilité d'appartenance
     """
-    model = tf.keras.models.load_model(BASE_DIR / 'static/final_saved_models/model')
+    # model = tf.keras.models.load_model(BASE_DIR / 'static/final_saved_models/model')
     probs = model.predict([text])
     print(probs)
     prediction = tf.argmax(tf.constant(probs[0]))
