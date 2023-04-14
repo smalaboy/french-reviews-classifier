@@ -21,3 +21,7 @@
  - Classifier
  - L'application expose une API json pour la classification. Elle prend un paramètre text dans l'url: 
  Par exemple *127.0.0.1:8000/api/classify?text=Ce+film+est+magnifique*
+
+
+## Images
+![Critique positive](https://drive.google.com/file/d/1MIwJzYgFy_m-mBqnerNpfs4JmwvTUDz2/view?usp=sharing)
