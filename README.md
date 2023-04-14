@@ -24,4 +24,6 @@
 
 
 ## Images
-![Critique positive](https://drive.google.com/file/d/1MIwJzYgFy_m-mBqnerNpfs4JmwvTUDz2/view?usp=sharing)
+![Critique positive](screen%20positif.png)
+
+![Critique négative](screen%20negatif.png)
